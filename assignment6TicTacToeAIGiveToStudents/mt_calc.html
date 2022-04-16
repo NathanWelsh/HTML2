@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--
+New Perspectives on HTML5, CSS3, and JavaScript 6th Edition
+Tutorial 11
+Case Problem 2
+
+<button id="ResetButton"><img src="BucsButton.png"></button>
+
+Professor: Dr. Roger Webster
+Code: Nathan Welsh
+Date:   2018-03-01
+Filename: mt_calc.html
+
+// Modified for FSW 
+// by Dr. Roger Webster
+
+-->
+
+        <meta charset="UTF-8" />
+        <title>COP2830 AI TIC TAC TOE</title>
+        <link href="mt_base.css" rel="stylesheet"  />      
+        <link href="mt_styles.css" rel="stylesheet" />
+        <link href="mt_calc.css" rel="stylesheet" />
+
+        <script src="mt_calc.js" async></script>
+    </head>
+
+    <body>
+        <center>
+           <!-- <h1>COP2830 AI TIC TAC TOE</h1>     
+            <h1>Written by Dr. Roger Webster</h1>
+        <h1><img src="BucsButton.png" input type="button" value="ResetButton" onclick="ResetGame();"></h1>-->
+
+            <table id="calculator">
+
+                <tr>
+                    <td>
+
+                        <input type="image" name="saveForm"  value="00"  src="tictactoeopenblur.png" onclick="myImg()" class="calcButton" id="saveForm" />
+
+
+                    </td>
+                    <td>
+
+                        <input type="image" name="saveForm"  value="01"  src="tictactoeopenblur.png" onclick="myImg()" class="calcButton" id="saveForm" />
+
+                    </td>
+                    <td>
+                        <input type="image" name="saveForm"  value="02"  src="tictactoeopenblur.png" onclick="myImg()" class="calcButton" id="saveForm" />
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>
+                        <input type="image" name="saveForm"  value="10"  src="tictactoeopenblur.png" onclick="myImg()" class="calcButton" id="saveForm" />
+                    </td>
+                    <td>
+                        <input type="image" name="saveForm"  value="11"  src="tictactoeopenblur.png" onclick="myImg()" class="calcButton" id="saveForm" />
+                    </td>
+                    <td>
+                        <input type="image" name="saveForm"  value="12"  src="tictactoeopenblur.png" onclick="myImg()" class="calcButton" id="saveForm" />
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>
+                        <input type="image" name="saveForm"  value="20"  src="tictactoeopenblur.png" onclick="myImg()" class="calcButton" id="saveForm" />
+                    </td>
+                    <td>
+                        <input type="image" name="saveForm"  value="21"  src="tictactoeopenblur.png" onclick="myImg()" class="calcButton" id="saveForm" />
+                    </td>
+                    <td>
+                        <input type="image" name="saveForm"  value="22"  src="tictactoeopenblur.png" onclick="myImg()" class="calcButton" id="saveForm" />
+                    </td>
+
+
+                </tr>
+            </table>
+        </center>
+
+        <aside>
+
+            <center>
+                <br>
+                <br>
+                <h1>COP2380 AI TIC TAC TOE</h1>
+                <br>
+                <h1>COP2380 Internet Programming HTML II</h1>
+                <br>
+                <h1>Written by Dr. Roger Webster</h1>
+                <br>
+
+                <div id ="WhoWon">
+                    <h1><b>Who Won?</b></h1>
+                </div>
+                <br>
+                <div id ="AIonOff">
+                    <h1><b>AI is ON</b></h1>
+                </div>
+                <br>
+
+                <img src="BucsButton.png" input type="button" value="ResetButton" onclick="ResetGame();">
+                <br>
+                <br>
+                <input type="image" id="aibutton" name="AIButton" value="AI" src="AION.jpeg" onclick="myImg()"
+                class="calcButton" 
+                width="250"
+                height="200"/>
+                <br>
+                <div id ="WinningMsg"><b>Player Wins: 0 AI Opponent wins: 0</b></div>
+                <br>
+            </center>
+
+                
+        </aside>
+
+        <footer>
+            <center>
+                COP2830 AI Tic Tac Toe
+            </center>
+
+        </footer>
+
+    </body>
+
+</html>
